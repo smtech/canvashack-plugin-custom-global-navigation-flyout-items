@@ -1,0 +1,13 @@
+{
+    "name": "canvashack/plugin-custom-global-navigation-flyout-items",
+    "description": "Insert custom items into the global navigation fly-out menus",
+    "type": "canvashack-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Seth Battis",
+            "email": "SethBattis@stmarksschool.org"
+        }
+    ],
+    "require": {}
+}

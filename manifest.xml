@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<canvashack>
+	<name>Custom Global Navigation Flyout Items</name>
+	<id>custom-global-navigation-flyout-items</id>
+	<abstract>Insert custom items into the global navigation fly-out menus</abstract>
+	<authors>
+		<author>
+			<name>Seth Battis</name>
+			<email>SethBattis@stmarksschool.org</email>
+		</author>
+	</authors>
+	<components>
+		<javascript>custom-global-navigation-flyout-items.js</javascript>
+		<canvas>
+			<pages>
+				<include>
+					<page>
+						<type>regex</type>
+						<pattern>%^https?://[^/]+$%</pattern>
+					</page>
+				</include>
+			</pages>
+			<dom>
+				<bundle>
+					<event>load</event>
+					<action>insertItems()</action>
+					<selector>#menu</selector>
+				</bundle>
+			</dom>
+		</canvas>
+	</components>
+</canvashack>
