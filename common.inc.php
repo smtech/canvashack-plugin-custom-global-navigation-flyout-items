@@ -8,6 +8,7 @@ if (file_exists(__DIR__ . '/manifest.xml')) {
 
 $pluginMetadata = new Battis\AppMetadata($sql, (string) $manifest->id);
 
+/*
 $pluginMetadata['ITEMS'] = [
     [
         'menu' => '#global_nav_profile_header',
@@ -20,3 +21,4 @@ $pluginMetadata['ITEMS'] = [
         'url' => '/users/@USER_ID/external_tools/1218'
     ]
 ];
+*/
