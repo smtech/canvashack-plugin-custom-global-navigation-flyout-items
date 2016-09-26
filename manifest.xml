@@ -16,7 +16,7 @@
 				<include>
 					<page>
 						<type>regex</type>
-						<pattern>%^https?://[^/]+$%</pattern>
+						<pattern>/.*/</pattern>
 					</page>
 				</include>
 			</pages>
@@ -24,7 +24,7 @@
 				<bundle>
 					<event>load</event>
 					<action>insertItems()</action>
-					<selector>#menu</selector>
+					<selector>.ReactTrayPortal</selector>
 				</bundle>
 			</dom>
 		</canvas>
