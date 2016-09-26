@@ -10,7 +10,7 @@
 		</author>
 	</authors>
 	<components>
-		<javascript>custom-global-navigation-flyout-items.js</javascript>
+		<javascript>custom-global-navigation-flyout-items.js.php</javascript>
 		<canvas>
 			<pages>
 				<include>
