@@ -2,7 +2,7 @@
 
 Insert custom items into the global navigation fly-out menus
 
-![Custom Global Navigation Flyout Items](/doc/custom-global-navigation-flyout-items.png)
+<img src="doc/custom-global-navigation-flyout-items.png" width="209" />
 
 ## Configuration
 
