@@ -1,7 +1,8 @@
 # Custom Global Navigation Flyout Items
-###### CanvasHack Plugin
 
 Insert custom items into the global navigation fly-out menus
+
+![Custom Global Navigation Flyout Items](/doc/custom-global-navigation-flyout-items.png)
 
 ## Configuration
 
