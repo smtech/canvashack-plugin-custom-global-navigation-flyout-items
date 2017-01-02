@@ -2,6 +2,17 @@
 
 require_once __DIR__ . '/common.inc.php';
 
+if (empty($_REQUEST['current_user'])) {
+    echo  "
+var canvashack = {
+  insertItems: function() {
+    console.log('CanvasHack: Custom global navigation flyout items were not loaded because no user is logged in.');
+  }
+};
+";
+    exit;
+}
+
 ?>
 var canvashack = {
     insertItem: function(menu, itemTitle, itemUrl) {
